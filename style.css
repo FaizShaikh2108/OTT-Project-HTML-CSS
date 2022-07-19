@@ -180,5 +180,6 @@ body{
     position: absolute;
     width: 100%;
     height: 58%;
-    
+    grid-column: 2/2;
+    grid-row: 1/2;
 }
