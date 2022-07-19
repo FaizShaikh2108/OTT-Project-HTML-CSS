@@ -139,3 +139,46 @@ body{
     bottom : 0;
     left: 0;
   }
+
+  .card1,.card2,.card3,.card4{
+    background-color: black;
+    border-top: 8px solid;
+    padding: 50px;
+    color: white;
+  }
+
+  .card1{
+    position: absolute;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+  }
+
+  .desc1 h1{
+    font-size: 3rem;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .desc h1{
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+
+  .desc1{
+    padding-left:80px ;
+  }
+
+  .card1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
+
+.card1 video{
+    position: absolute;
+    width: 100%;
+    height: 58%;
+    
+}
