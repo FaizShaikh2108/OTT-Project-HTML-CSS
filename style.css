@@ -209,3 +209,25 @@ body{
     /* background-color: rgb(18, 139, 139); */
     padding-left: 80px;
 }
+
+.card-2 , .card-4{
+    position: relative;
+    display: grid ;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+    text-align: left;
+    padding: 25px 45px 50px;  
+}
+
+.desc-2 , .card-4{
+    padding-left: 80px;
+    /* margin-left: 5%; */
+}
+
+.card-2 img{
+    width: 100%;
+ }
+
+ .card-4 img{
+    width: 100%;
+ }
